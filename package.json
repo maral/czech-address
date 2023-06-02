@@ -2,7 +2,8 @@
   "name": "czech-address",
   "version": "1.0.0",
   "description": "NPM library for composing Czech addresses according to the law \"Vyhláška č. 359/2011 Sb.\"",
-  "main": "src/index.ts",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "directories": {
     "test": "tests"
   },

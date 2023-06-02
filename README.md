@@ -13,7 +13,7 @@ yarn add czech-address
 ```
 
 ## Usage
-You can use the library in TypeScript (for JS, just remove the typings):
+You can use the library in TypeScript (for JS, just remove the TS types):
 ```
 import { createSingleLineAddress, AddressPoint, AddressPointType }
 
