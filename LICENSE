@@ -1,6 +1,9 @@
 MIT License
 
-Copyright (c) 2023 Marek Lisy
+Copyright (c) 2023 Marek Lisý & Tomáš Le
+
+Based on https://github.com/letomas/RUIAN-search, rewritten to TypeScript
+and fixed to adhere to the law: https://www.zakonyprolidi.cz/cs/2011-359
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
