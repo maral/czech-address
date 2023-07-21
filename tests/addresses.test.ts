@@ -70,6 +70,14 @@ const addresses: (AddressPoint & {address: string }) [] = [
     postalCode: "50333",
     municipalityPart: "Praskačka",
   },
+  {
+    address: "č.ev. 192, 39165 Bechyně",
+    type: AddressPointType.Registration,
+    houseNumber: 192,
+    city: "Bechyně",
+    postalCode: "39165",
+    municipalityPart: "Bechyně",
+  },
 ];
 
 describe("address-builder - test correct address generation", () => {

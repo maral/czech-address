@@ -22,7 +22,7 @@ const createMultiLineAddress = (address) => {
     }
     if (!address.street) {
         if (municipalityPartEqualsCity(address)) {
-            let buildingType = address.type === AddressPointType.Registration ? " č.ev. " : "č.p. ";
+            let buildingType = address.type === AddressPointType.Registration ? "č.ev. " : "č.p. ";
             result.firstRow = buildingType + address.houseNumber;
         }
         else {

@@ -41,7 +41,7 @@ export const createMultiLineAddress = (address: AddressPoint): string[] => {
   if (!address.street) {
     if (municipalityPartEqualsCity(address)) {
       let buildingType =
-        address.type === AddressPointType.Registration ? " č.ev. " : "č.p. ";
+        address.type === AddressPointType.Registration ? "č.ev. " : "č.p. ";
       result.firstRow = buildingType + address.houseNumber;
     } else {
       result.firstRow = address.municipalityPart;
